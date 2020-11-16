@@ -124,3 +124,65 @@ def time_bubble_sort():
 #Implementation
 time_bubble_sort()
 
+"""# Sequential search algorithm"""
+
+def seq_search(A,k):
+  #Implements sequential search with a search key as a sentinel
+  #Input: An array A of n elements and a search key K
+  #Output: The index of the first element in A[0..n − 1] whose value is equal to K or −1 if no such element is found
+
+  # Get A length
+  n = len(A)
+
+  last = A[n-1]
+
+  A[n-1] = k
+  i = 0
+
+  pos = 0
+
+  while(A[i] != k): 
+    i += 1
+  
+  # Put the last element back to its own place
+  A[n-1] = last
+  if((i < n-1) or (k == A[n-1])): 
+    pos = i
+  else:
+    pos = -1
+
+  return pos
+
+#Implementation
+A = auto_gen()
+print(A)
+print(seq_search(A,3))
+
+"""# Sequential search Run-time and run-time diagram"""
+
+import time 
+import pylab 
+import random
+
+# Input for this method must be a method ... 
+def time_seq_search():
+  input_size = []
+  timer = []
+
+  for i in range(2,100):
+    input_size.append(i)
+    temp = []
+    for j in range(i):
+      temp.append(random.randint(0,10))
+    key = random.randint(0,10)
+    start = time.time()
+    seq_search(temp,key)
+    end = time.time()
+
+    timer.append((end-start) * 1000)
+  
+  pylab.plot(input_size,timer, 'o-')
+  pylab.show()
+
+#Implementation
+time_seq_search()
