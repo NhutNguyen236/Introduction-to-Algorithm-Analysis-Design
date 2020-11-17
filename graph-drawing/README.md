@@ -7,3 +7,24 @@
 ## First thing first: Package installation
 * I am using `matplotlib` so you have to do this in your console `pip install matplotlib`
 
+## Styles while plotting 
+* Other options for the color characters are:
+
+   * 'r' = red
+   * 'g' = green
+   * 'b' = blue
+   * 'c' = cyan
+   * 'm' = magenta
+   * 'y' = yellow
+   * 'k' = black
+   * 'w' = white
+   
+* Options for line styles are
+
+ * '-' = solid
+ * '--' = dashed
+ * ':' = dotted
+ * '-.' = dot-dashed
+ * '.' = points
+ * 'o' = filled circles
+ * '^' = filled triangles
