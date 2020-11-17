@@ -36,7 +36,10 @@
   <img src = "/screenshots/plot-sample.png" width = "400" height = "300"/>
 </p>
 
-A wonderful, typical magenta dot-dashed with filled circles :laughing:
+
+<p align = "center">
+  A wonderful, typical magenta dot-dashed with filled circles :laughing:
+</p>
 
 ## Main tutorial stream 
 * Pylab
