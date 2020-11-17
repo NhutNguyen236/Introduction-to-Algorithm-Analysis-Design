@@ -22,13 +22,13 @@
    
 * Options for line styles are
 
- * '-' = solid
- * '--' = dashed
- * ':' = dotted
- * '-.' = dot-dashed
- * '.' = points
- * 'o' = filled circles
- * '^' = filled triangles
+   * '-' = solid
+   * '--' = dashed
+   * ':' = dotted
+   * '-.' = dot-dashed
+   * '.' = points
+   * 'o' = filled circles
+   * '^' = filled triangles
 
 ## Main tutorial stream 
 * https://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html
