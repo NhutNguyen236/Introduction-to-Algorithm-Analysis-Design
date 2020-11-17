@@ -31,4 +31,7 @@
    * '^' = filled triangles
 
 ## Main tutorial stream 
-* https://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html
+* Pylab
+  * https://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html
+* Pyplot
+  * https://matplotlib.org/tutorials/introductory/pyplot.html
