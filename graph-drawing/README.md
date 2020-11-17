@@ -6,6 +6,7 @@
 
 ## First thing first: Package installation
 * I am using `matplotlib` so you have to do this in your console `pip install matplotlib`
+* In every IPython Notebook, `pylab` or `pyplot` can be imported straightforward but in Python `IDLE` cannot, everything is inside `matplotlib`, to do so you have to `from matplotlib import pylab`
 
 ## Styles while plotting 
 * Other options for the color characters are:
@@ -28,3 +29,6 @@
  * '.' = points
  * 'o' = filled circles
  * '^' = filled triangles
+
+## Main tutorial stream 
+* https://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html
