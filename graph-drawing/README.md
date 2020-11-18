@@ -30,6 +30,17 @@
    * 'o' = filled circles
    * '^' = filled triangles
 
+* For example: `pylab.plot(x,y,'mo-.')` will return this
+
+<p align = "center">
+  <img src = "/screenshots/plot-sample.png" width = "400" height = "300"/>
+</p>
+
+
+<p align = "center">
+  A wonderful, typical magenta dot-dashed with filled circles :laughing:
+</p>
+
 ## Main tutorial stream 
 * Pylab
   * https://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html
